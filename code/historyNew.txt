@@ -1,0 +1,120 @@
+    1  sudo apt-get update
+    2  whoami
+    3  date
+    4  cal
+    5  lspci
+    6  history
+    7  acpi
+    8  sudo apt install acpi
+    9  acpi
+   10  acpi -t
+   11  acpi --help
+   12  top
+   13  uname -r
+   14  ifconfig
+   15  sudo apt install net-tools
+   16  ifconfig
+   17  df -ah
+   18  cd Documentos/
+   19  pwd
+   20  ls
+   21  cd ..
+   22  pwd
+   23  cd Documentos/
+   24  cd ../Escritorio/
+   25  ls
+   26  mkdir RAS
+   27  ls
+   28  cd RAS/
+   29  mkdir code
+   30  ls
+   31  cd ..
+   32  mkdir RAS/code/test
+   33  tree RAS
+   34  sudo apt install tree
+   35  tree RAS
+   36  ls -R
+   37  ls --help
+   38  cd RAS/code/test
+   39  touch file.txt
+   40  ls
+   41  tree code
+   42  tree RAS
+   43  tree test
+   44  cat file.txt
+   45  nano file.txt
+   46  cat file.txt
+   47  ls
+   48  history > history.txt
+   49  cat history.txt
+   50  cd ../../..
+   51  du -sh RAS
+   52  cd RAS/code/test
+   53  du -sh history.txt 
+   54  ls
+   55  wc -l history.txt 
+   56  wc -l file.txt 
+   57  wc --help
+   58  cd ..
+   59  cd test/
+   60  wc -w history.txt 
+   61  rm -i file.txt 
+   62  ls
+   63  echo "RAS" > file.txt 
+   64  ls
+   65  cat file.txt 
+   66  echo "RAS"
+   67  cd ..
+   68  ls
+   69  rm --help
+   70  rm -r test
+   71  ls
+   72  history > history.txt
+   73  ls
+   74  cd ../..
+   75  tree RAS
+   76  CD RAS/code
+   77  CD RAS/code/
+   78  cd RAS/code/
+   79  mkdir final
+   80  ls
+   81  zip zipRAS.zip RAS
+   82  cd ../..
+   83  zip zipRAS.zip RAS
+   84  ls
+   85  unzip -v zipRAS.zip 
+   86  mv zipRAS.zip ../Documentos/
+   87  ls
+   88  cd ../Documentos/
+   89  ls
+   90  cd ../Escritorio/
+   91  cd ../Documentos/
+   92  mv zipRAS.zip ../Escritorio/
+   93  cd ../Escritorio/
+   94  zip -r zipRAS.zip RAS
+   95  cp zipRAS.zip ../Documentos/
+   96  cd ../Documentos/
+   97  ls
+   98  unzip zipRAS.zip 
+   99  ls
+  100  tree RAS
+  101  cd ../Escritorio/
+  102  cd RAS
+  103  find -name "history.txt"
+  104  find -name "*.txt"
+  105  mv history.txt historyNew.txt
+  106  cd code
+  107  mv history.txt historyNew.txt
+  108  ls
+  109  clear
+  110  ls --help
+  111  cd ..
+  112  ls -l
+  113  ls -l code
+  114  chmod +x historyNew.txt
+  115  cd code
+  116  chmod +x historyNew.txt
+  117  ls -l
+  118  clear
+  119  ls
+  120  history > historyNew.txt 
